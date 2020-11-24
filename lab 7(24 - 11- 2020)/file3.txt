@@ -1,0 +1,13 @@
+We’ll start with gzip a very popular program,that works with one or more
+filenames.It provides the extension .gz to the compressed filename and
+removes the original file.
+• In the following example we run gzip on the file libc.html. We also note
+the file size ,both before and after compression using wc –c which counts
+You can respond with y or n.You can also rename the file ( r ) to prevent
+overwriting or direct unzip to perform the decompression on the remaining
+Files non-Interactively.
+Viewing the Archive(-v) You can view the compressed archive with the
+-v option .The List shows both the compressed and uncompressed size of
+each file in the archive along with the percentage of compression achieved.
+So instead of using two commands to compress a directory structure ,you
+can use only one –zip. All the letters of the alphabet are available as it

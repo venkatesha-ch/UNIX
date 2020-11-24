@@ -1,0 +1,11 @@
+We’ll start with gzip a very popular program,that works with one or more
+filenames.It provides the extension .gz to the compressed filename and
+removes the original file.
+• In the following example we run gzip on the file libc.html. We also note
+the file size ,both before and after compression using wc –c which counts
+characters.
+$wc –c libc.html
+3875302 libc.html
+$gzip libc.html
+$wc –c libc.html.gz
+788096 libc.html.gz
